@@ -75,7 +75,7 @@ let [active, setActive] = useState(false)
         <Nav.Link><BasicButton/></Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href='https://github.com/Tissue94'><FontAwesomeIcon icon={faGithub}/></Nav.Link>
+        <Nav.Link href='https://github.com/Tissue94'><FontAwesomeIcon icon={faGithub} style={{width:"50", height:"50"}}/></Nav.Link>
       </Nav.Item>
     </Nav>
   </Navbar>
@@ -86,7 +86,6 @@ let [active, setActive] = useState(false)
     <Dropdown autoClose="outside">
     <Dropdown.Toggle id="dropdown-autoclose-outside" title=''>
       <img src={idPicture} className="id-picture"/>
-      {/* <FontAwesomeIcon icon={faUser} className="user-icon"/> */}
     </Dropdown.Toggle>
     <Dropdown.Menu>
       <Dropdown.Item >생년월일 : 1994.09.09</Dropdown.Item>
