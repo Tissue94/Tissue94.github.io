@@ -73,10 +73,10 @@
 
 .linkNav > :first-child {
   font-size: 40px;
-  margin-right: 650px; 
+  margin-right: 450px; 
   margin-top: auto;
   margin-bottom: auto;
-  width: 400px;
+  width: 600px;
 }
 
 .btn-primary {
@@ -195,7 +195,7 @@
 
 .back-containner {
   border-radius: 40px;
-  margin-left: 50px;
+  margin-left: 30px;
   background-color: white;
   margin-top: 70px;
   width: 600px;
