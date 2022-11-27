@@ -281,8 +281,8 @@ let [active, setActive] = useState(false)
             </div>
             <div className='d-flex'>
               <img src={jquery} style={{width:"140px", height:"120px", marginLeft : "20px", marginTop : "20px"}} />
-              <img src={fontAwesome} style={{width:"240px", height:"120px", marginTop : "20px"}} />
-              <img src={bootstrap} style={{width:"200px", height:"120px", marginTop : "20px"}} />
+              <img src={fontAwesome} style={{width:"200px", height:"120px", marginTop : "20px"}} />
+              <img src={bootstrap} style={{width:"100px", height:"120px", marginTop : "20px"}} />
             </div>
           </div>
           <div className='back-containner'>
@@ -291,8 +291,8 @@ let [active, setActive] = useState(false)
                <img src={spring} style={{width:"200px", height:"120px", marginTop : "20px", marginRight:"10px" }} />
             </div>
             <div className='d-flex'>
-               <img src={maven} style={{width:"240px", height:"120px", marginLeft : "20px", marginTop : "20px"}} />
-               <img src={mybatis} style={{width:"160px", height:"140px", marginLeft : "0px", marginTop : "20px"}} />
+               <img src={maven} style={{width:"180px", height:"100px", marginLeft : "20px", marginTop : "20px"}} />
+               <img src={mybatis} style={{width:"160px", height:"140px", marnpmginLeft : "0px", marginTop : "20px"}} />
             </div>
           </div>
         </div>
