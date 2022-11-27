@@ -276,8 +276,8 @@ let [active, setActive] = useState(false)
         <div className='d-flex'>
           <div className='front-containner'>
             <div className='d-flex'>
-              <img src={htmlCssJs} style={{width:"400px", height:"150px", marginLeft : "5px", marginTop : "15px"  }}/>
-              <img src={react} style={{width:"100px", height:"100px", marginTop:"38px", borderRadius:"20px", marginRight:"5px"}}/>
+              <img src={htmlCssJs} style={{width:"400px", height:"150px",  marginTop : "15px"  }}/>
+              <img src={react} style={{width:"100px", height:"100px", marginTop:"38px", borderRadius:"20px", marginRight:"15px"}}/>
             </div>
             <div className='d-flex'>
               <img src={jquery} style={{width:"140px", height:"120px", marginLeft : "20px", marginTop : "20px"}} />
