@@ -282,7 +282,7 @@ let [active, setActive] = useState(false)
             <div className='d-flex'>
               <img src={jquery} style={{width:"140px", height:"120px", marginLeft : "20px", marginTop : "20px"}} />
               <img src={fontAwesome} style={{width:"200px", height:"120px", marginTop : "20px"}} />
-              <img src={bootstrap} style={{width:"100px", height:"120px", marginTop : "20px"}} />
+              <img src={bootstrap} style={{width:"130px", height:"120px", marginTop : "20px"}} />
             </div>
           </div>
           <div className='back-containner'>
