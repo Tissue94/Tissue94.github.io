@@ -47,13 +47,13 @@ let [active, setActive] = useState(false)
 
       <Nav variant="pills" defaultActiveKey='link-1'>
     <Nav.Item>
-      <Nav.Link className='aboutMe' eventKey="link-1" onClick={(e)=>  {console.log(e.target); setTab(0)}}>About Me</Nav.Link>
+      <Nav.Link className='aboutMe' eventKey="link-1" onClick={(e)=>  {setTab(0)}}>About Me</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link  className='project' eventKey="link-2" onClick={(e)=> { console.log(e.target); setTab(1)}}>Project</Nav.Link>
+      <Nav.Link  className='project' eventKey="link-2" onClick={(e)=> {setTab(1)}}>Project</Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link className='mainSkill' eventKey="link-3" onClick={(e)=> {console.log(e.target); setTab(2)}}>Main Skill</Nav.Link>
+      <Nav.Link className='mainSkill' eventKey="link-3" onClick={(e)=> {setTab(2)}}>Main Skill</Nav.Link>
     </Nav.Item>
     <Nav.Item>
       <Nav.Link className='resolution' eventKey="link-4" onClick={()=> {setTab(3)}}>Resolution</Nav.Link>
@@ -276,8 +276,8 @@ let [active, setActive] = useState(false)
         <div className='d-flex'>
           <div className='front-containner'>
             <div className='d-flex'>
-              <img src={htmlCssJs} style={{width:"400px", height:"150px", marginLeft : "15px", marginTop : "15px"  }}/>
-              <img src={react} style={{width:"100px", height:"100px", marginTop:"30px", borderRadius:"20px"}}/>
+              <img src={htmlCssJs} style={{width:"400px", height:"150px", marginLeft : "10px", marginTop : "15px"  }}/>
+              <img src={react} style={{width:"100px", height:"100px", marginTop:"35px", borderRadius:"20px"}}/>
             </div>
             <div className='d-flex'>
               <img src={jquery} style={{width:"140px", height:"120px", marginLeft : "20px", marginTop : "20px"}} />
@@ -292,7 +292,7 @@ let [active, setActive] = useState(false)
             </div>
             <div className='d-flex'>
                <img src={maven} style={{width:"180px", height:"100px", marginLeft : "20px", marginTop : "20px"}} />
-               <img src={mybatis} style={{width:"160px", height:"140px", marnpmginLeft : "35px", marginTop : "10px"}} />
+               <img src={mybatis} style={{width:"160px", height:"140px", marnpmginLeft : "55px", marginTop : "10px"}} />
             </div>
           </div>
         </div>
