@@ -277,7 +277,7 @@ let [active, setActive] = useState(false)
           <div className='front-containner'>
             <div className='d-flex'>
               <img src={htmlCssJs} style={{width:"400px", height:"150px", marginLeft : "10px", marginTop : "15px"  }}/>
-              <img src={react} style={{width:"100px", height:"100px", marginTop:"35px", borderRadius:"20px"}}/>
+              <img src={react} style={{width:"100px", height:"100px", marginTop:"38px", borderRadius:"20px"}}/>
             </div>
             <div className='d-flex'>
               <img src={jquery} style={{width:"140px", height:"120px", marginLeft : "20px", marginTop : "20px"}} />
@@ -292,7 +292,7 @@ let [active, setActive] = useState(false)
             </div>
             <div className='d-flex'>
                <img src={maven} style={{width:"180px", height:"100px", marginLeft : "20px", marginTop : "20px"}} />
-               <img src={mybatis} style={{width:"160px", height:"140px", marnpmginLeft : "55px", marginTop : "10px"}} />
+               <img src={mybatis} style={{width:"160px", height:"140px", marginLeft : "55px", marginTop : "10px"}} />
             </div>
           </div>
         </div>
