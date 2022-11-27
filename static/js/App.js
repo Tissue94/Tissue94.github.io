@@ -304,7 +304,7 @@ let [active, setActive] = useState(false)
             <h2><FontAwesomeIcon icon={faPaperclip}/> 포부 </h2>
             <div style={{marginTop : "50px"}}>
               <div className='resolution-contents'><FontAwesomeIcon icon={faHandFist}/> 저는 이 직무를 선택하면서 항상 배우고 끊임없이 성장하는 개발자가 되겠다고 결심하였습니다.</div>
-              <div className='resolution-contents'><FontAwesomeIcon icon={faHandFist}/> 아직 부족한게 많지만무조건 공부하고 배워서 프로젝트에 도움이 될 수 있도록 노력하겠습니다.</div>
+              <div className='resolution-contents'><FontAwesomeIcon icon={faHandFist}/> 아직 부족한게 많지만 무조건 공부하고 배워서 프로젝트에 도움이 될 수 있도록 노력하겠습니다.</div>
             </div>
           </div>
         </div>
