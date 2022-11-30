@@ -256,8 +256,8 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 87rem !important;
-  left: -90%;
+  width: 68rem !important;
+  left: -60%;
   height: 1500px;
   color: var(--bs-modal-color);
   pointer-events: auto;
