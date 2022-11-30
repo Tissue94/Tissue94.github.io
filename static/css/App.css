@@ -57,8 +57,6 @@
 
 }
 
-
-
 .nav-item  {
   font-size: 16px;
   color: white;
@@ -70,6 +68,8 @@
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 2%;
+  margin-right: 2%; 
+
 }
 
 .linkNav > :first-child {
@@ -150,7 +150,7 @@
 .tab-containner{
   padding-left: 200px;
   padding-right: 200px;
-  height: 618px;
+  height: 38.7rem;
 }
 
 .about-containner {
@@ -166,7 +166,7 @@
 .about-containner .about-contents{
   margin-top: 20px;
   padding-left: 10%;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .about-containner  h2 {
@@ -186,7 +186,7 @@
 .skill-containner  h2 {
   text-align: center;
   font-weight: bold;
-  margin-right: 9%;
+  margin-right: 4%;
 }
 
 .front-containner {
@@ -199,7 +199,7 @@
 
 .back-containner {
   border-radius: 40px;
-  margin-left: 30px;
+  margin-left: 9%;
   background-color: white;
   margin-top: 70px;
   width: 45%;
