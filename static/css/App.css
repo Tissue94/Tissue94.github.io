@@ -282,10 +282,22 @@
   line-height: var(--bs-modal-title-line-height);
 }
 
-.modal-body p, .modal-desc {
+.modal-body p {
+  display: flex;
+  font-size : 18px; 
+  margin-left : 25px; 
+  word-break : keep-all ,;
+  white-space: pre-wrap;
+   width : 430px;
+   line-height : 1.79; 
+   margin-top : 20px;
+   margin-bottom : 40px;
+}
+
+.modal-desc {
   display: flex;
   font-size : 20px; 
-  margin-left : 40px; 
+  margin-left : 25px; 
   word-break : keep-all ,;
   white-space: pre-wrap;
    width : 430px;
@@ -302,10 +314,10 @@
 .modal-skill {
   text-align: center;
   padding: 4px 8px;
-    font-size: 20px;
+    font-size: 17px;
     border-radius: 16px;
     background: rgb(242, 243, 247);
-    margin-left: 20px;
+    margin-left: 10px;
 
 }
 

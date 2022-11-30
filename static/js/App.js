@@ -174,28 +174,28 @@ let [active, setActive] = useState(false)
         </Modal.Header>
         <Modal.Body>
           <div style={{ width : "40%", height : "1300px", borderRight : "1px solid #d3d3d3"}}>
-            <div style={{fontSize : "25px", fontWeight : "bold", marginLeft : "40px"}}>프로젝트 설명</div>
+            <div style={{fontSize : "25px", fontWeight : "bold", marginLeft : "30px"}}>프로젝트 설명</div>
             <p>
-                유튜브 클론 프로젝트를 팀원 1명과 구현하며
-                HTML, CSS, JS, DB, MVC구조 등을 
+                유튜브 클론 프로젝트를 팀원 1명과 구현하며<br></br>
+                HTML, CSS, JS, DB, MVC구조 등을<br></br>
                 다루는 법을 배우고 익히고자 하였습니다.
             </p>
-            <div style={{fontSize : "25px", fontWeight : "bold", marginLeft : "40px"}}>참여 기간</div>
+            <div style={{fontSize : "25px", fontWeight : "bold", marginLeft : "30px"}}>참여 기간</div>
             <div className='modal-desc'>2022.07 ~ 2022.11</div>
-            <div style={{fontSize : "25px", fontWeight : "bold", marginLeft : "40px"}}>기술</div>
+            <div style={{fontSize : "25px", fontWeight : "bold", marginLeft : "30px"}}>기술</div>
             <div className='modal-skill-containner' >
               <div className='d-flex'>
-                <div className='modal-skill' style={{width : "70px"}}>html</div> 
-                <div className='modal-skill' style={{width : "60px"}}>css</div>
-                <div className='modal-skill' style={{width : "60px"}}>js</div>
-                <div className='modal-skill' style={{width : "80px"}}>jquery</div>
-                <div className='modal-skill' style={{width : "110px"}}>bootstrap</div>
-                <div className='modal-skill' style={{width : "80px"}}>spring</div> 
+                <div className='modal-skill' style={{width : "60px"}}>html</div> 
+                <div className='modal-skill' style={{width : "50px"}}>css</div>
+                <div className='modal-skill' style={{width : "50px"}}>js</div>
+                <div className='modal-skill' style={{width : "70px"}}>jquery</div>
+                <div className='modal-skill' style={{width : "95px"}}>bootstrap</div>
               </div>
               <div className='d-flex' style={{marginTop : "10px"}}>
-               <div className='modal-skill' style={{width : "90px"}}>mybatis</div> 
-               <div className='modal-skill' style={{width : "70px"}}>mysql</div> 
-               <div className='modal-skill' style={{width : "150px"}}>font awesome</div> 
+               <div className='modal-skill' style={{width : "70px"}}>spring</div> 
+               <div className='modal-skill' style={{width : "80px"}}>mybatis</div> 
+               <div className='modal-skill' style={{width : "60px"}}>mysql</div> 
+               <div className='modal-skill' style={{width : "135px"}}>font awesome</div> 
               </div>
             </div>
           </div>
@@ -226,7 +226,7 @@ let [active, setActive] = useState(false)
           <div style={{ width : "40%", height : "1300px", borderRight : "1px solid #d3d3d3"}}>
             <div style={{fontSize : "25px", fontWeight : "bold", marginLeft : "40px"}}>프로젝트 설명</div>
             <p>
-                리액트를 처음으로 다뤄본 개인프로젝트입니다.
+                리액트를 처음으로 다뤄본 개인프로젝트입니다.<br></br>
                 전반적인 리액트 라이브러리와 구현 방식을 <br></br>
                 배우고 익히고자 노력하였습니다.
             </p>
@@ -235,14 +235,14 @@ let [active, setActive] = useState(false)
             <div style={{fontSize : "25px", fontWeight : "bold", marginLeft : "40px"}}>기술</div>
             <div className='modal-skill-containner' >
               <div className='d-flex' >
-                <div className='modal-skill' style={{width : "70px"}}>html</div> 
-                <div className='modal-skill' style={{width : "60px"}}>css</div>
-                <div className='modal-skill' style={{width : "60px"}}>js</div>
-                <div className='modal-skill' style={{width : "70px"}}>react</div>
-                <div className='modal-skill' style={{width : "110px"}}>bootstrap</div>
+                <div className='modal-skill' style={{width : "60px"}}>html</div> 
+                <div className='modal-skill' style={{width : "50px"}}>css</div>
+                <div className='modal-skill' style={{width : "50px"}}>js</div>
+                <div className='modal-skill' style={{width : "60px"}}>react</div>
+                <div className='modal-skill' style={{width : "100px"}}>bootstrap</div>
               </div>
               <div className='d-flex'style={{marginTop : "10px"}} >
-              <div className='modal-skill' style={{width : "150px"}}>font awesome</div> 
+              <div className='modal-skill' style={{width : "140px"}}>font awesome</div> 
               </div>
             </div>
           </div>
