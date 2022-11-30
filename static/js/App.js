@@ -68,7 +68,7 @@ let [active, setActive] = useState(false)
   function Header(params) {
     return  <Navbar bg="dark" variant="dark">
     <Nav className='linkNav' >
-      <Nav.Item>
+      <Nav.Item className='title'>
           <Nav>Jump for my experience</Nav>
       </Nav.Item>
       <Nav.Item>
@@ -124,7 +124,7 @@ let [active, setActive] = useState(false)
               <div className='about-contents'><FontAwesomeIcon icon={faCircle}/>  막히고 문제가 생기더라도 고민하고 해결해나가는 매력을 느껴 이 분야에서의 커리어를 시작하려고 합니다.</div>
             </div>
           </div>
-          <div style={{marginTop : "20px"}}>
+          <div style={{marginTop : "5%"}}>
             <h2><FontAwesomeIcon icon={faPaperclip}/> 경력 사항</h2>
             <div>
               <div className='about-contents'><FontAwesomeIcon icon={faCircle}/>  42서울 프로그램으로 코딩프로그램에 처음 접하였습니다. (21.09 ~ 21.10)</div>
@@ -275,23 +275,23 @@ let [active, setActive] = useState(false)
         <div className='d-flex'>
           <div className='front-containner'>
             <div className='d-flex'>
-              <img src={htmlCssJs} style={{width:"400px", height:"150px",  marginTop : "15px"  }}/>
-              <img src={react} style={{width:"100px", height:"100px", marginTop:"38px", borderRadius:"20px", marginRight:"15px"}}/>
+              <img src={htmlCssJs} style={{width:"70%", height:"150px",  marginTop : "15px", marginLeft: "2%"  }}/>
+              <img src={react} style={{width:"18%", height:"100px", marginTop:"38px", borderRadius:"20px", marginRight:"2%"}}/>
             </div>
             <div className='d-flex'>
-              <img src={jquery} style={{width:"140px", height:"120px", marginLeft : "20px", marginTop : "20px"}} />
-              <img src={fontAwesome} style={{width:"200px", height:"120px", marginTop : "20px"}} />
-              <img src={bootstrap} style={{width:"130px", height:"120px", marginTop : "20px"}} />
+              <img src={jquery} style={{width:"25%", height:"120px", marginLeft : "4%", marginTop : "20px"}} />
+              <img src={fontAwesome} style={{width:"38%", height:"120px", marginTop : "20px"}} />
+              <img src={bootstrap} style={{width:"25%", height:"120px", marginTop : "20px"}} />
             </div>
           </div>
           <div className='back-containner'>
             <div className='d-flex'> 
-               <img src={java} style={{width:"240px", height:"120px", marginTop : "20px"}} />
-               <img src={spring} style={{width:"200px", height:"120px", marginTop : "20px", marginRight:"10px" }} />
+               <img src={java} style={{width:"45%", height:"120px", marginTop : "20px"}} />
+               <img src={spring} style={{width:"45%", height:"120px", marginTop : "20px", marginRight:"2%" }} />
             </div>
             <div className='d-flex'>
-               <img src={maven} style={{width:"180px", height:"100px", marginLeft : "20px", marginTop : "20px"}} />
-               <img src={mybatis} style={{width:"160px", height:"140px", marginLeft : "55px", marginTop : "10px"}} />
+               <img src={maven} style={{width:"30%", height:"100px", marginLeft : "8%", marginTop : "30px"}} />
+               <img src={mybatis} style={{width:"45%", height:"140px", marginLeft : "8%", marginTop : "10px"}} />
             </div>
           </div>
         </div>
