@@ -90,7 +90,7 @@ let [active, setActive] = useState(false)
     <Dropdown.Menu>
       <Dropdown.Item >생년월일 : 1994.09.09</Dropdown.Item>
       <Dropdown.Item >휴대번호 : 010-8831-2979</Dropdown.Item>
-      <Dropdown.Item >주소 : 경기도 군포시 금산로91 거주</Dropdown.Item>
+      <Dropdown.Item >주소 : 경기도 군포시 금산로91</Dropdown.Item>
     </Dropdown.Menu>
   </Dropdown>
     )
