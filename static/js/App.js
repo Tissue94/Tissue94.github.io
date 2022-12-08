@@ -75,7 +75,7 @@ let [active, setActive] = useState(false)
         <Nav.Link><BasicButton/></Nav.Link>
       </Nav.Item>
       {/* <Nav.Item>
-        <Nav.Link href='https://github.com/Tissue94'><FontAwesomeIcon icon={faGithub} style={{width:"50", height:"50"}}/></Nav.Link>
+        <Nav.Link href='https://github.com/'><FontAwesomeIcon icon={faGithub} style={{width:"50", height:"50"}}/></Nav.Link>
       </Nav.Item> */}
     </Nav>
   </Navbar>
