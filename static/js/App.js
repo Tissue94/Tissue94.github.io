@@ -69,14 +69,14 @@ let [active, setActive] = useState(false)
     return  <Navbar bg="dark" variant="dark">
     <Nav className='linkNav' >
       <Nav.Item className='title'>
-          <Nav>Jump for my experience</Nav>
+          <Nav>Jump for my <br></br> experience</Nav>
       </Nav.Item>
       <Nav.Item>
         <Nav.Link><BasicButton/></Nav.Link>
       </Nav.Item>
-      <Nav.Item>
+      {/* <Nav.Item>
         <Nav.Link href='https://github.com/Tissue94'><FontAwesomeIcon icon={faGithub} style={{width:"50", height:"50"}}/></Nav.Link>
-      </Nav.Item>
+      </Nav.Item> */}
     </Nav>
   </Navbar>
   }

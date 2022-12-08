@@ -74,7 +74,7 @@
 
 .linkNav > :first-child {
   font-size: 40px;
-  margin-right: 40%; 
+  margin-right: 45%; 
   margin-top: auto;
   margin-bottom: auto;
   width: 600px;
@@ -122,10 +122,10 @@
   margin-bottom: 7px;
 }
 
-/* .navbar-expand .navbar-nav .dropdown-menu {
+ .navbar-expand .navbar-nav .dropdown-menu {
   position: absolute;
-  left: -80px;
-} */
+  left: -6rem;
+} 
 
 .nav-pills {
   margin-top: 20px;
