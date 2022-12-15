@@ -140,7 +140,7 @@ let [active, setActive] = useState(false)
       <div className='project-containner'>
           <div style={{ width : "1100px", height: "93%"}}>
             <div className='d-flex'>
-              <Card style={{ width : "19rem"}} onClick={youtubeHandleShow}>
+              <Card  youtube-tooltip-text="카드를 눌러주세요!" style={{ width : "19rem"}} onClick={youtubeHandleShow}>
                 <Card.Img variant="top" src={youtubeImg} />
                   <Card.Body>
                     <Card.Title>YouTube Clone Project</Card.Title>
@@ -151,7 +151,7 @@ let [active, setActive] = useState(false)
                     </Card.Text>
                   </Card.Body>
               </Card>
-              <Card style={{ width : "20rem"}} onClick={shopHandleShow}>
+              <Card   shop-tooltip-text="카드를 눌러주세요!" style={{ width : "20rem"}} onClick={shopHandleShow}>
                 <Card.Img variant="top" src={shopImg} />
                   <Card.Body>
                     <Card.Title>shop project</Card.Title>

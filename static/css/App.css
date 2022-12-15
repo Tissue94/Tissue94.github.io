@@ -74,7 +74,7 @@
 
 .linkNav > :first-child {
   font-size: 40px;
-  margin-right: 43%; 
+  margin-right: 41%; 
   margin-top: auto;
   margin-bottom: auto;
   width: 600px;
@@ -234,6 +234,69 @@
   width: 100%;
   height: 312px !important;
 }
+
+.card_hover::after {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -10px;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: #333;
+  border-width: 10px;
+  pointer-events: none;
+  content: " ";
+}
+
+[youtube-tooltip-text]:hover {
+	position: relative;
+}
+
+[youtube-tooltip-text]:hover:after {
+	content: attr(youtube-tooltip-text);
+
+  position: absolute;
+	top: -10%;
+	left: 18%;
+  width: 200px;
+  height: 30px;
+    
+  background-color: black;
+	color: #FFFFFF;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  border-radius: 30px;
+
+	z-index: 9999;
+}
+
+[shop-tooltip-text]:hover {
+	position: relative;
+}
+
+[shop-tooltip-text]:hover:after {
+	content: attr(shop-tooltip-text);
+
+  position: absolute;
+	top: -10%;
+	left: 18%;
+  width: 200px;
+  height: 30px;
+    
+  background-color: black;
+	color: #FFFFFF;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  border-radius: 30px;
+
+	z-index: 9999;
+}
+
+
 
 .card-body {
   flex: 1 1 auto;
