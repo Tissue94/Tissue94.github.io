@@ -348,7 +348,7 @@
 .modal-body p {
   display: flex;
   font-size : 18px; 
-  margin-left : 22px; 
+  margin-left : 16px; 
   word-break : keep-all ,;
   white-space: pre-wrap;
    width : 430px;
