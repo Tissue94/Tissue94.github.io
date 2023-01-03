@@ -129,7 +129,7 @@ let [active, setActive] = useState(false)
             <div>
               <div className='about-contents'><FontAwesomeIcon icon={faCircle}/>  42서울 프로그램으로 코딩프로그램에 처음 접하였습니다. (21.09 ~ 21.10)</div>
               <div className='about-contents'><FontAwesomeIcon icon={faCircle}/>  비트캠프 국비지원 프로그램을 통해 자바기반 웹플랫폼 서비스 구축과정을 수료하였습니다. (21.11 ~ 22.05)</div>
-              <div className='about-contents'><FontAwesomeIcon icon={faCircle}/>  동료들과 유튜브 클론 프로젝트를 하였습니다.(22.07 ~ 22.11)</div>
+              <div className='about-contents'><FontAwesomeIcon icon={faCircle}/>  동료들과 유튜브 따라하기 프로젝트를 하였습니다.(22.07 ~ 22.11)</div>
               <div className='about-contents'><FontAwesomeIcon icon={faCircle}/>  개인 리액트 공부로 쇼핑몰 프로젝트와 포트폴리오 준비를 하였습니다.(22.10 ~ 22.11)</div>
             </div>
           </div>
@@ -145,7 +145,7 @@ let [active, setActive] = useState(false)
                   <Card.Body>
                     <Card.Title>YouTube Clone Project</Card.Title>
                     <Card.Text>
-                      유튜브 클론 프로젝트입니다.
+                      유튜브 따라하기 프로젝트입니다.
                       메인페이지와 검색페이지를 구현하였습니다.<br></br>
                     
                     </Card.Text>
@@ -176,7 +176,7 @@ let [active, setActive] = useState(false)
           <div style={{ width : "40%", height : "1300px", borderRight : "1px solid #d3d3d3"}}>
             <div style={{fontSize : "25px", fontWeight : "bold", marginLeft : "30px"}}>프로젝트 설명</div>
             <p>
-                유튜브 클론 프로젝트를 팀원 1명과 구현하며<br></br>
+                유튜브 따라하기 프로젝트를 팀원 1명과 구현하며<br></br>
                 HTML, CSS, JS, DB, MVC구조 등을<br></br>
                 다루는 법을 배우고 익히고자 하였습니다.
             </p>
