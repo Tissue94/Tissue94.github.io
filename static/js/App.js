@@ -177,12 +177,12 @@ let [active, setActive] = useState(false)
             <div style={{fontSize : "25px", fontWeight : "bold", marginLeft : "30px"}}>프로젝트 설명</div>
             <p>
                 유튜브 따라하기 프로젝트를 팀원 1명과 구현하며<br></br>
-                HTML, CSS, JS, DB, MVC구조 등을<br></br>
+                CSS, JS, DB, MVC구조 등을<br></br>
                 다루는 법을 배우고 익히고자 하였습니다.
             </p>
             <div style={{fontSize : "25px", fontWeight : "bold", marginLeft : "30px"}}>참여 기간</div>
             <div className='modal-desc'>2022.07 ~ 2022.11</div>
-            <div style={{fontSize : "25px", fontWeight : "bold", marginLeft : "30px"}}>기술</div>
+            <div style={{fontSize : "25px", fontWeight : "bold", marginLeft : "30px"}}>사용 기술 및 라이브러리</div>
             <div className='modal-skill-containner' >
               <div className='d-flex'>
                 <div className='modal-skill' style={{width : "60px"}}>html</div> 
@@ -197,7 +197,30 @@ let [active, setActive] = useState(false)
                <div className='modal-skill' style={{width : "60px"}}>mysql</div> 
                <div className='modal-skill' style={{width : "135px"}}>font awesome</div> 
               </div>
+              <div className='d-flex' style={{marginTop : "10px"}}>
+              <div className='modal-skill' style={{width : "60px"}}>maven</div> 
+              </div>
             </div>
+            <div style={{fontSize : "25px", fontWeight : "bold", marginLeft : "30px", marginTop : "30px"}}>프로젝트 역할</div>
+            <p>
+                페이지 기획 <br></br>
+                main 페이지 layout(css) 개발 <br></br>
+                무한스크롤(데이터 렌더링) 개발<br></br>
+                검색 기능 개발<br></br>
+                검색 기능을 통한 검색페이지 개발<br></br>
+                비디오 추가하는 모달창 layout 개발<br></br>
+                모달창 안 동영상과 썸네일의 미리보기 개발
+            </p>
+            <div style={{fontSize : "25px", fontWeight : "bold", marginLeft : "30px", marginTop : "30px"}}>프로젝트 후기</div>
+            <p>
+                해보지 않았던 기능을 개발하는 것이었기 때문에 <br></br>
+                프로젝트 중간중간 공부를 하며 개발을하였습니다. <br></br>
+                구글링해도 나오지 않는 문제들도 많았기 때문에 <br></br>
+                시간이 오래 걸리기도 했습니다. <br></br>
+                정확한 개념 공부가 중요하다는 것을 느꼈습니다. <br></br>
+                개념 공부가 중요하다는 것을 알게됬습니다. <br></br>
+                
+            </p>
           </div>
           <div style={{ width : "60%", height : "1300px", marginLeft: "10px"}}>
             <div className='video-desc'>무한스크롤과 데이터 추가</div>
